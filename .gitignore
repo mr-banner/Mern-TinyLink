@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Build artifacts
+build/
+dist/
+out/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# MongoDB specific files (if applicable)
+data/db/
+*.lock
+
+# IDE and OS specific files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Client-side specific (if client is a sub-directory)
+client/build/
+client/node_modules/
+
+# Server-side specific (if server is a sub-directory)
+server/node_modules/

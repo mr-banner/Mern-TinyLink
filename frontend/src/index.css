@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small shadcn-like utilities */
+.btn {
+  @apply px-3 py-2 rounded-md text-sm font-medium shadow-sm;
+}
+.btn-primary { @apply bg-sky-600 text-white hover:bg-sky-700; }
+.btn-danger { @apply bg-red-600 text-white hover:bg-red-700; }
+.card { @apply bg-white shadow rounded-lg p-4; }
