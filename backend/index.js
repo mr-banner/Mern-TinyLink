@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/healthz', (req, res) => {
-  return res.status(200).json({ ok: true, version: '1.0' });
+  return res.status(200).json({ message:"Api working fine!!!" });
 });
 app.use('/api/links', linksRouter);
 const Link = require('./models/Link');
